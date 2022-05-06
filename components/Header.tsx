@@ -24,7 +24,7 @@ function Header() {
     }
   }, [])
   return (
-    <header className={`${isScrolled && ' bg-red-500  '}`}>
+    <header className={`${isScrolled && 'bg-[#141414]'}`}>
       <div className="flex items-center space-x-2 md:space-x-10">
         <img
           src="https://rb.gy/ulxxee"
@@ -34,11 +34,11 @@ function Header() {
         />
 
         <ul className="hidden space-x-4 md:flex">
-          <li className="headerLink">Home</li>
-          <li className="headerLink">TV Shows</li>
-          <li className="headerLink">Movies</li>
-          <li className="headerLink">New & Popular</li>
-          <li className="headerLink">My List</li>
+          <li className="headerLink">Hem</li>
+          <li className="headerLink">Serier</li>
+          <li className="headerLink">Filmer</li>
+          <li className="headerLink">Nytt och populärt</li>
+          <li className="headerLink">Min Lista</li>
         </ul>
       </div>
       <div className="flex items-center space-x-4 text-sm font-light">
