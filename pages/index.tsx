@@ -41,15 +41,15 @@ const Home = ({
         <Banner netflixOriginals={netflixOriginals} />
 
         <section className="md:space-y-24">
-          <Row title="Trending Now" movies={trendingNow} />
-          <Row title="Top Rated" movies={topRated} />
-          <Row title="Action Thrillers" movies={actionMovies} />
+          <Row title="Populärt just nu" movies={trendingNow} />
+          <Row title="Prisbelönta filmer" movies={topRated} />
+          <Row title="Action och äventyr" movies={actionMovies} />
           {/* My List component */}
 
-          <Row title="Comedies" movies={comedyMovies} />
-          <Row title="Scary Movies" movies={horrorMovies} />
-          <Row title="Romance Movies" movies={romanceMovies} />
-          <Row title="Documentaries" movies={documentaries} />
+          <Row title="Komedier" movies={comedyMovies} />
+          {/* <Row title="Scary Movies" movies={horrorMovies} /> */}
+          <Row title="Romantik" movies={romanceMovies} />
+          <Row title="Dokumentärer" movies={documentaries} />
         </section>
       </main>
     </div>
