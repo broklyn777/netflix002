@@ -36,7 +36,7 @@ function Header() {
         <ul className="hidden space-x-4 md:flex">
           <li className="headerLink">Hem</li>
           <li className="headerLink">Serier</li>
-          <li className="headerLink">Filmer</li>
+          <li className="headerLink">Film</li>
           <li className="headerLink">Nytt och populärt</li>
           <li className="headerLink">Min Lista</li>
         </ul>
