@@ -1,5 +1,19 @@
+import MuiModal from '@mui/material/Modal'
+import { useRecoilState } from 'recoil'
+import { modalState } from '../atoms/modalAtom'
+
 function Modal() {
-  return <div>Modal</div>
+  const [showModal, setShowModal] = useRecoilState(modalState)
+  // const [currentMovie, setCurrentMovie] = useRecoilState(movieState)
+
+  const handleClose = () => {
+    setShowModal(false)
+  }
+  return (
+    <MuiModal open={showModal} onClose={handleClose}>
+      <>Modal</>
+    </MuiModal>
+  )
 }
 
 export default Modal
